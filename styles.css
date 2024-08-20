@@ -1,0 +1,182 @@
+body {
+    background-color: #E4EFE7;
+}
+
+.header {
+    color: #064420;
+    font-size: 50px;
+    font-family: 'Source Serif Pro', serif;
+    margin-top: 10px;
+}
+
+.containerbox {
+    display:flex;
+    justify-content: center;
+}
+
+#myVideo {
+    width: 100vh;
+    margin-right: 10px;
+}
+
+.imagehead {
+    width: 80vh;
+}
+
+.infotxt {
+    color:#064420;
+    font-family: 'Source Serif Pro', serif;
+    border:#064420 2px solid;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.item {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    margin: 5px;
+    flex:1;
+    position: relative;
+}
+
+h2 {
+    color: #064420;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 22px;
+    background-color: #FAF1E6;
+    position:absolute;
+    left:5px;
+    top:10px;
+}
+
+.first {
+    flex: 4;
+  }
+  
+.first h2 {
+    font-size: 40px;
+    transition: all 0.5s ease-in;
+  }
+
+.infofirst {
+    flex:2;
+    margin:5px;
+}
+
+.infosecond {
+    flex:3;
+    margin:5px;
+}
+
+.redWine {
+    background-image: url(redwine.avif);
+}
+
+.whiteWine {
+    background-image: url(whitewine.avif);
+}
+
+.champagne {
+    background-image: url(champagne.avif);
+}
+
+.cognac {
+    background-image: url(cognac.avif);
+}
+
+.liqueur {
+    background-image: url(liqueur.avif);
+}
+
+.mulledWine {
+    background-image: url(mulledwine.avif);
+}
+
+.vermouth {
+    background-image: url(vermouth.avif);
+}
+
+.whiskey {
+    background-image: url(whiskey.avif);
+}
+
+.containerform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:30px;   
+}
+
+.text {
+    font-family: 'Source Serif Pro', serif;
+}
+
+label {
+    margin: 5px;
+}
+
+.btn {
+    background-color: #064420;
+    color:#FAF1E6;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    border: #064420 1px solid;
+    background-color: #FAF1E6;
+}
+
+.btnNext, .btnBack {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 15px;
+    border: 2px solid #064420;
+    border-radius: 3px;
+    background-color: #FAF1E6;
+}
+
+.btnNext:hover, .btnBack:hover {
+    font-weight: bold;
+}
+
+.image {
+    width: 70vh;
+}
+
+@media all and (max-width: 800px) {
+    .mobile {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mobileslides {
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .image, .btnNext, .btnBack {
+        width: 45vh;
+    }
+
+    .imagehead {
+        width: 50vh;
+    }
+
+    #myVideo {
+        width: 50vh;
+        margin: 5px;
+    }
+
+    .first {
+        flex: 6;
+      }
+    
+      .item {
+        margin: 1px;
+      }
+     
+}
+  
